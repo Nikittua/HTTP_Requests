@@ -1,5 +1,3 @@
-from multiprocessing import freeze_support
-
 from timer import time
 from multiprocessing.pool import Pool
 import requests
