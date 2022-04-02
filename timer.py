@@ -1,5 +1,6 @@
 import timeit
 
+
 def time(number, repeat):
     def wrapper(func):
         runs = timeit.repeat(func, number=number, repeat=repeat)
